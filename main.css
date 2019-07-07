@@ -12,14 +12,32 @@ body{
   font-size: 3vw;
 }
 
+@media (max-width: 960px) {
+  .main-title{
+    font-size: 5vw;
+  }
+}
+
 .sub-title{
   font-style: italic;
   font-weight: 700;
   font-size: 4vw;
 }
 
+@media (max-width: 960px) {
+  .sub-title{
+    font-size: 7vw;
+  }
+}
+
 .main-text{
   font-size: 2vw
+}
+
+@media (max-width: 960px) {
+  .main-text{
+    font-size: 3vw;
+  }
 }
 
 .container{
@@ -42,4 +60,10 @@ body{
 
 .copyright{
   font-size: 1vw;
+}
+
+@media (max-width: 960px) {
+  .copyright{
+    font-size: 3vw;
+  }
 }
