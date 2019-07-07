@@ -1,0 +1,45 @@
+body{
+  font-family: 'Avenir Next', arial,source-sans-pro,'Noto Sans Japanese';
+  background-color: #000000;
+  color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.main-title{
+  font-weight: 700;
+  font-size: 3vw;
+}
+
+.sub-title{
+  font-style: italic;
+  font-weight: 700;
+  font-size: 4vw;
+}
+
+.main-text{
+  font-size: 2vw
+}
+
+.container{
+  width: 100%;
+  height: 90%;
+  position: relative;
+}
+
+.content{
+  position: absolute;
+  top: calc(50% - 25%);
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+
+.footer-container{
+  text-align: center;
+}
+
+.copyright{
+  font-size: 1vw;
+}
