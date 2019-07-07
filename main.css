@@ -25,11 +25,23 @@ body{
   font-weight: 700;
   font-size: 4vw;
   padding: 0.5vw 2vw;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 @media (max-width: 960px) {
   .sub-title{
     font-size: 7vw;
+  }
+}
+
+#clock{
+  font-size: 1vw;
+}
+
+@media (max-width: 960px) {
+  #clock{
+    font-size: 3vw;
   }
 }
 
