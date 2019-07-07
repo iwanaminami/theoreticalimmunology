@@ -9,22 +9,22 @@ body{
 
 .main-title{
   font-weight: 700;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 @media (max-width: 960px) {
   .main-title{
-    font-size: 5vw;
+    font-size: 3vw;
   }
 }
 
 .sub-title{
   display: inline-block;
-  background-color: #ff0000;
+  /*background-color: #ff0000;*/
   font-style: italic;
   font-weight: 700;
   font-size: 4vw;
-  padding: 0.5vw 2vw;
+  /*padding: 0.5vw 2vw;*/
   margin-block-start: 0;
   margin-block-end: 0;
 }
