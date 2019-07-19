@@ -9,7 +9,7 @@ function set2fig(num) {
 function showclock() {
 var tm = new Date();
 var nowYear  = set2fig( tm.getFullYear() );
-var nowMonth  = set2fig( tm.getMonth() );
+var nowMonth  = set2fig( tm.getMonth()+1 );
 var nowDate  = set2fig( tm.getDate() );
 var nowHour = set2fig( tm.getHours() );
 var nowMin  = set2fig( tm.getMinutes() );
