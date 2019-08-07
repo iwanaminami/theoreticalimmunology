@@ -1,0 +1,14 @@
+title: theoreticalimmunology
+description: >- # this means to ignore newlines until "baseurl:"
+  理論免疫学, theoretical immunology, 免疫, 免疫学, 理論, 数理生物学
+keywords: 理論免疫学, 理論, 免疫学, 数学, theoretical immunology, theory, immunology
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://theoreticalimmunology.jp" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: pretty
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
